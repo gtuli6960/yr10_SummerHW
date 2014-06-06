@@ -23,15 +23,17 @@ There are 30 marks available and are awarded grades as follows:
 ###1 - Why do we represent data using binary when using computers *(1 mark)*
 
 ```
-answer here
+Computers can only understand binary to run commands.
 ```
 ###2 - How would we represent the number 147 in binary? *(1 mark)*
 ```
-answer here
+10010011
 ```
 ###3 - Can you convert the hexadecimal number **b5** to denary, there is a mark for you working. *(2 marks)*
 ```
-answer here
+b5
+1011 0101
+181
 ```
 ###4 - Here is a function written is **pseudocode**.
 ```
@@ -47,12 +49,12 @@ ENDFUNCTION
 
 (a) What type of data is **users**? **(1 mark)**
 ```
-answer here
+The data type of users is an array
 ```
 
 (b) What type of data is returned by this function? **(1 mark)**
 ```
-answer here
+The type of data returned by the function is boolean
 ```
 
 ##Errors
@@ -69,28 +71,33 @@ line7:		OUTPT mean
 
 (a) On which line is there a **syntax** error? **(1 mark)**
 ```
-answer here
+Line 7
 ```
 
 (b) What is meant by a **syntax** error? **(1 mark)**
 ```
-answer here
+A syntax error is where the computer cannot understand the code, usually due to a misspelt keyword
 ```
 
 (c) Identify a logical error in the program and suggest how this might be fixed. **(2 marks)**
 ```
-answer here
+The for loop is itterating through the list of numbers, but instead of adding the number to the total, the program sets the value of tot to the current number in the itteration
 ```
 
 (d) Describe and give an example of the 3rd kind of programming error. **(2 marks)**
 ```
-answer here
+An arithmetic error is where the programmer asks the computer to do a taks which is impossible for a computer to do
 ```
 
 ##Algortithms
 ###7 - Write an **algorithm** that if given a list of numbers could find the largest. Try to use [pseudocode](http://filestore2.aqa.org.uk/subjects/AQA-GCSE-COMPSCI-W-TRB-PSEU.PDF).
 ```
-answer here
+numbers <- [53,8,23,63,85,9,12,98,2,87,96]
+highest <- 0
+for x <- 1 to len(numbers) DO
+	IF numbers[x] > highest THEN
+		highest <- numbers[x]
+OUTPUT "The highest number is " + highest
 ```
 
 ##Networking
