@@ -106,26 +106,42 @@ OUTPUT "The highest number is " + highest
 **Bus Topology (6 marks)**
 ```
 Describe:
+The bus topology involves all the computers, printers, scanners, and the server connecting to one main 'bus' cable.  At either end of the bus are Terminators which prevent the signal from being reflected back down the cable.
 
 Advantages:
+• Easy to install.
+• Cheap to install becuase not a lot of cabling is required.
 
 Disadvantages:
+• If the bus cable fails to function, the whole network effectively stops working.
+• An addition of more nodes will affect the performance of the network - it will become slower due to data collisions.
+• Because all of the nodes can see all of the data, there is little security in a bus topology.
 ```
 
 **Ring Topology (6 marks)**
 ```
 Describe:
+In a ring topology, each device is connected to two other devices, with all the devices in a ring formation.  Each packet of data on the network travels in a single direction, and each device recieves the packet and passes it on until it reaches its destination.
 
 Advantages:
+• Can transfer data quickly, even if there are a large number of devices on the network.  This is becuase the data packet only travels in a single direction, so there are no data collisions.
 
 Disadvantages:
+• If a single device becomes faulty and does not function, the whole network will effectively stop working.
+• If the main cable becomes faulty and does not function, the whole network effectively stops working.
 ```
 
 **Star Topology (6 marks)**
 ```
 Describe:
+The star topology involves each device on the network having its own cable to a device known as a switch or hub - a switch only sends a packet of data to the destination device, whereas a hub sends every packet of data to every device
 
 Advantages:
+• Very reliable because if one of the cables or devices fails to function, the rest of the devices are unaffected (unless the faulty cable is the one going to the server, or the faulty device is the server).
+• High performance, becuase no data collisions occur.
 
 Disadvantages:
+• Uses the most cabling out of the three topologies, so is the most expensive to install, due to the cost of cabling.
+• Hubs or switches are required, so the network costs extra money when compared to a topology with no switch or hub.
+• If a hub or switch fails to function, none of the devices on the network will be able to communicate becuase the switch or hub is the centre of the network.
 ```
