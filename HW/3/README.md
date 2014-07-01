@@ -77,7 +77,7 @@ mc.setBlock(x, y, z+4, GLOWING_OBSIDIAN)
 - replace the [house.py](house.py) code with your own version and commit. 
 
 ###3 - Rapid Tunnels
-Try the [tunnel](tunnel.py) code, currently it places 3 obsidian blocks near the player.
+Try the [tunnel](tunnel.py) code, currently it moves the player to x, y, z then changes block x, y, z to air.
 ```python
 import mcpi.minecraft as minecraft 
 from mcpi.block import * 
