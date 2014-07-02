@@ -45,7 +45,7 @@ c = child
 S = solider
 ```       
 
-For text based programs like pytohn you should create a new file in you repository
+For text based programs like python you should create a new file in you repository
 ![Add new](../../Resources/new.png)
 
 For anything else (eg scratch), email you teacher with the file and say you've done so in the comments.
